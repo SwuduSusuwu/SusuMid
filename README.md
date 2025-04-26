@@ -18,6 +18,10 @@
 # Purposes
 [`./.ssh/`](./.ssh/) is to [use signatures / certificates](#signaturecertificate).
 
+[`./mid/`](./mid/) stages [`.mid`](https://wikipedia.org/wiki/MIDI#Computer_files) sound (music) samples for <https://swudususuwu.substack.com/podcast> and [SwuduSusuwu on Youtube](https://www.youtube.com/watch?v=jbyE0W4FFjA&list=PLTYe2PlBb7aeNRwaNvbvpqFsoCa5S6fyx&index=2).
+- Much of those were not stored as `.mid`, and the few that were sound best if opened with [_Perfect Piano_](https://play.google.com/store/apps/details?id=com.gamestar.perfectpiano&hl=en-US) with the instrument from the filename.
+- The filenames are formatted as `YY-MM-DD_HHMM[SS]_Instrument_[Title].mid`.
+
 [`./posts/`](./posts/) stages posts (virtual schools) for <https://SwuduSusuwu.SubStack.com/> about: artificial neural tissue, antiviruses, assistants, plus autonomous tools.
 - [`./posts/TranscodeMuxHowto.md`](./posts/TranscodeMuxHowto.md) is simple [`/bin/sh`](https://wikipedia.org/wiki/Bourne_shell) commands for advanced [`ffmpeg`](https://wikipedia.org/wiki/FFmpeg) use (formulas to encode visuals relate to [issue #2](https://github.com/SwuduSusuwu/SusuLib/issues/2#issuecomment-2110726542)).
 
@@ -31,6 +35,7 @@
 - [`./hooks/pre-commit`](./pre-commit) is [custom `pre-commit`](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks) [`.git/hooks/pre-commit.sample` (scans for non-ASCII filenames, conflict markers or whitespace errors)](https://github.com/auth0/gitzero/blob/master/tests/example/_git/hooks/pre-commit.sample)
 
 # How to use this
+If `git` is not installed, browse [`./mid/`](./mid/).
 ## Download
 Download with `git clone https://github.com/SwuduSusuwu/SusuMid.git` and browse local with `cd mid/ && ls`.
 - If this does not have all the samples you want, you can opt-in to the beta with `git switch experimental` (opt-out with `get switch trunk`).
