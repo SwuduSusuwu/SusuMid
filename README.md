@@ -17,6 +17,9 @@
 # Purposes
 [`./.ssh/`](./.ssh/) is to [use signatures / certificates](#signaturecertificate).
 
+[`./hooks/`](./hooks/) is `git` scripts ([`man githooks`](https://git-scm.com/docs/githooks)) which assist you; install with `cp -ra ./hooks/* ./.git/hooks/`.
+- [`./hooks/pre-commit`](./pre-commit) is [custom `pre-commit`](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks) [`.git/hooks/pre-commit.sample` (scans for non-ASCII filenames, conflict markers or whitespace errors)](https://github.com/auth0/gitzero/blob/master/tests/example/_git/hooks/pre-commit.sample)
+
 # How to use this
 ## Download
 Download with `git clone https://github.com/SwuduSusuwu/SusuMid.git` and browse local with `cd mid/ && ls`.
