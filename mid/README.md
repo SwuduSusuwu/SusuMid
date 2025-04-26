@@ -7,5 +7,11 @@
 # Purposes
 [`./mid/`](./) stages [`.mid`](https://wikipedia.org/wiki/MIDI#Computer_files) sound (music) samples for <https://swudususuwu.substack.com/podcast> and [SwuduSusuwu on Youtube](https://www.youtube.com/watch?v=jbyE0W4FFjA&list=PLTYe2PlBb7aeNRwaNvbvpqFsoCa5S6fyx&index=2).
 - Much of those were not stored as `.mid`, and the few that were sound best if opened with [_Perfect Piano_](https://play.google.com/store/apps/details?id=com.gamestar.perfectpiano&hl=en-US) with the instrument from the filename.
-- The filenames are formatted as `YY-MM-DD_HHMM[SS]_Instrument_[Title].mid`.
+  - The filenames are formatted as `YY-MM-DD_HHMM[SS]_Instrument_[Title].mid`.
+- [./mid/2024-01-24_0200_Piano_Swudu Susuwu's sonato to robos 2.mid](./2024-01-24_0200_Piano_Swudu%20Susuwu's%20sonato%20to%20robos%202.mid)
+- [./mid/2024-01-24_122341_Organ.mid](./2024-01-24_122341_Organ.mid)
+- [./mid/2024-01-31_0833_Organ.mid](./2024-01-31_0833_Organ.mid) (The pitch is too high unless opened with _Perfect Piano_.)
+- [./mid/2024-02-16_104019_Organ.mid](./2024-02-16_104019_Organ.mid) (The pitch is too high unless opened with _Perfect Piano_.)
+- [./mid/2024-02-16_212026_Synth.mid](./2024-02-16_212026_Synth.mid)
+- [./mid/2025-01-29_180408_MusicBox_C4-B4.mid](./2025-01-29_180408_MusicBox_C4-B4.mid)
 
