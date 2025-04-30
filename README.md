@@ -35,7 +35,7 @@
 - [`./hooks/pre-commit`](./pre-commit) is [custom `pre-commit`](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks) [`.git/hooks/pre-commit.sample` (scans for non-ASCII filenames, conflict markers or whitespace errors)](https://github.com/auth0/gitzero/blob/master/tests/example/_git/hooks/pre-commit.sample)
 
 # How to use this
-If `git` is not installed, browse [`./mid/`](./mid/).
+If `git` is not installed, browse [`./mid/`](./mid/) and click on individual `*.mid` samples to have the browser download those.
 ## Download
 Download with `git clone https://github.com/SwuduSusuwu/SusuMid.git` and browse local with `cd mid/ && ls`.
 - If this does not have all the samples you want, you can opt-in to the beta with `git switch experimental` (opt-out with `get switch trunk`).

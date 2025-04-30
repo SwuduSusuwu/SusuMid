@@ -1,6 +1,7 @@
 (C) 2024 Swudu Susuwu, released as [_Creative Commons 2.0 Generic_](https://creativecommons.org/licenses/by/2.0/) (allows all uses). You can also use the licenses from the repository root (_Apache 2_ or _GNU Public License 2_) if those suit you.
 # Table of Contents
 - [Purposes](#purposes)
+- [How to use this](#how-to-use-this)
 - [How to contribute](../README.md#how-to-contribute)
   - [Sponsor](../README.md#sponsor)
 
@@ -14,4 +15,10 @@
 - [./mid/2024-02-16_104019_Organ.mid](./2024-02-16_104019_Organ.mid) (The pitch is too high unless opened with _Perfect Piano_.)
 - [./mid/2024-02-16_212026_Synth.mid](./2024-02-16_212026_Synth.mid)
 - [./mid/2025-01-29_180408_MusicBox_C4-B4.mid](./2025-01-29_180408_MusicBox_C4-B4.mid)
+
+# How to use this
+If `git` is not installed, browse [`./mid/`](./) and click on individual `*.mid` samples to have the browser download those.
+## Download
+Download with `git clone https://github.com/SwuduSusuwu/SusuMid.git` and browse local with `cd mid/ && ls`.
+- If this does not have all the samples you want, you can opt-in to the beta with `git switch experimental` (opt-out with `get switch trunk`).
 
