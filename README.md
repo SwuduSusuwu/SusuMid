@@ -9,6 +9,7 @@
   - [Beta test/experimental branch](#beta-testexperimental-branch)
   - [Good first issues to contribute to](https://github.com/SwuduSusuwu/SusuMid/contribute)
   - [Contributor conventions/rules](#contributor-conventionsrules)
+    - [_Markdown_](#markdown)
     - [`git`](#git)
     - [`sh` source](#sh-source)
   - [Sponsor](#sponsor)
@@ -53,9 +54,23 @@ View [documented issues](https://github.com/SwuduSusuwu/SusuLib/issues/) (for id
   - Preview samples / scripts symptoms of new issues (hint: listen to samples for glitches, or look through script outputs for "Warning:"s or "Error:"s).
   - If you found new issue(s) (which aren't due to misconfigurations in your system), [post new issue(s)](https://github.com/SwuduSusuwu/SusuLib/issues/new).
     - Notice: [sensitive issue(s)](./SECURITY.md#sensitive-issues) have a separate protocol.
+
 # Contributor conventions/rules
 General comment/message syntax rules: `<>` goes around type of option/argument (such as `<commit-hash>`, `[]` goes around optional comments/options/arguments (such as `[<optional fallback value>]`, `...` is affixed to allow multiple options/arguments (such as `[; optional extra arguments]...`). This rule is used to document function arguments (such as `sh`, `C` or `C++` use), plus to document `git` uses.
 To ensure consistent code, submissions of code (such as through [pull requests](https://github.com/SwuduSusuwu/SusuLib/pulls)) have language-specific syntax rules:
+## _Markdown_
+`` *.md `` shall use:
+- [_GitHub flavored Markdown_](https://github.github.com/gfm/), which is not just compatible with [_GitHub_](https://github.com) but also:
+  - Has lots of [unit tests](https://wikipedia.org/wiki/Unit_test#Agile). Most of the differences from the original _Markdown_ are just so rules are less ambiguous.
+  - Is close to the original _Markdown_ (thus compatible with most _Markdown_ tools, such as [`glow`](https://github.com/charmbracelet/glow?tab=readme-ov-file#glow)).
+- [_ISO 8601_](https://wikipedia.org/wiki/ISO_8601), which
+  - Is the most popular national standard format.
+  - Versus formats which use locale-dependent names of months, is more portable and less ambiguous.
+  - Versus formats which use backslashes, is more portable (filesystem paths can include).
+- [_Unix_](https://wikipedia.org/wiki/Unix) paths start with `./` (if relative) or `/` (if absolute), so that [`sed`](https://manpages.org/sed) (and [`grep`](https://manpages.org/grep)) [performance is improved](https://poe.com/s/NX7kVKtCL9k04WIqieoh).
+  - That is, paths shall match the [Regular Expression](https://wikipedia.org/wiki/Regular_expression) `^\.*\/[\w]*` (more than 1 `.` is allowed).
+  - [_Microsoft Windows_](https://wikipedia.org/wiki/Microsoft_Windows) can use _Unix_ paths, except that absolute paths must start with the drive prefix (`[A-Z]:/` versus `/`).
+  - [_HTTP_](https://wikipedia.org/wiki/HTTP) can use _Unix_ paths, except that absolute paths must start with the protocol (`http[s]*://` versus `/`).
 ## `git`
 If `git commit` introduces/removes functions, have `./README.md#purposes` include this.
 Do atomic commits: if swapping the new commit with a previous commit (such as through `git rebase -i`) -- or if `git revert` of a previous commit -- causes  `./build.sh` to return a non-0 exit status, `git commit`'s message shall include such as:
