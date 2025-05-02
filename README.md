@@ -6,7 +6,7 @@
   - [Download](#download)
   - [Signature/certificate](#signaturecertificate)
 - [How to contribute](#how-to-contribute)
-  - [Beta test/experimental branch](#beta-testexperimental-branch)
+  - [Beta test/`experimental` branch](#beta-testexperimental-branch)
   - [Good first issues to contribute to](https://github.com/SwuduSusuwu/SusuMid/contribute)
   - [Contributor conventions/rules](#contributor-conventionsrules)
     - [_Markdown_](#markdown)
