@@ -15,6 +15,7 @@
 - [./mid/2024-02-16T104019_Organ.mid](./2024-02-16T104019_Organ.mid) (The pitch is too high unless opened with _Perfect Piano_.)
 - [./mid/2024-02-16T212026_Synth.mid](./2024-02-16T212026_Synth.mid)
 - [./mid/2025-01-29T180408_MusicBox_C4-B4.mid](./2025-01-29T180408_MusicBox_C4-B4.mid)
+- [./mid/2025-05-28T100913-MusicBox.mid](./2025-05-28T100913-MusicBox.mid) (BPM: 602. Target use: school / edu.)
 
 # How to use this
 If `git` is not installed, browse [`./mid/`](./) and click on individual `*.mid` samples to have the browser download those.
