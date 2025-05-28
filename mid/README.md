@@ -16,6 +16,7 @@
 - [`./mid/20240216212026_Synth.mid`](./20240216212026_Synth.mid)
 - [`./mid/20250129180408_MusicBox_C4-B4.mid`](./20250129180408_MusicBox_C4-B4.mid)
 - [`./mid/20250528100913_MusicBox.mid`](./20250528100913_MusicBox.mid) (BPM: 602. Target use: school / edu.)
+- [`./mid/202509161912_MusicBox-Echo.mid`](./202509161912_MusicBox-Echo.mid) (BPM: 602. Intended use: school / edu. <https://www.youtube.com/watch?v=zJqJ-R4_ykw> has the `.opus`.)
 
 # How to use this
 If `git` is not installed, browse [`./mid/`](./) and click on individual `*.mid` samples to have the browser download those.
