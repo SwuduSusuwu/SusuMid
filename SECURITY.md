@@ -3,7 +3,7 @@ Asof 2024-12-24, all [commit signatures](https://docs.github.com/en/authenticati
 
 Asof 2025-04-09 ([commit a40d1ff013f3007384e4ed025d0e402364d189cb](https://github.com/SwuduSusuwu/SusuLib/commit/a40d1ff013f3007384e4ed025d0e402364d189cb)), [`./.ssh/allowed_signers.old`](./.ssh/allowed_signers.old) holds old certificates[^3] (not known as "compromised"; just no longer used). **TODO**; warn if new commits use old certificates.
 
-Asof this commit (which follows [commit 6c9099de1bc3d588263705b3bb553d108f995266](https://github.com/SwuduSusuwu/SusuLib/commit/6c9099de1bc3d588263705b3bb553d108f995266)), this repo switches to a new certificate[^4]. The previous certificates are not known as "compromised", but were used on numerous devices and are no longer trustable.
+Asof 2025-07-10 ([commit 7c84ecbd29360a60bd0336799305bb45aba223fb](https://github.com/SwuduSusuwu/SusuLib/commit/7c84ecbd29360a60bd0336799305bb45aba223fb)), this repo switches to a new certificate[^4]. The previous certificates are not known as "compromised", but were used on numerous devices and are no longer trustable.
 
 ## Supported versions
 Users can expect that past 2024-06-26, [`trunk`](https://github.com/SwuduSusuwu/SusuMid/) passes [_GitHub_'s code reviews](https://github.blog/changelog/2025-04-22-github-actions-workflow-security-analysis-with-codeql-is-now-generally-available/)[^2].
@@ -33,5 +33,5 @@ You can expect:
 
 [^3]: Asof [commmit a40d1ff013f3007384e4ed025d0e402364d189cb](https://github.com/SwuduSusuwu/SusuLib/commit/a40d1ff013f3007384e4ed025d0e402364d189cb) [`./.ssh/sha256.sig`](./.ssh/sha256.sig) (and the [`./.ssh/allowed_signers`](./.ssh/allowed_signers) which `sha256.sig` produces) have a new certificate (`SHA256:1csQw8HZNJa7t2gbG9/usNZ6cXdlUlSMcA3dVb3j16c`).
 
-[^4]: Asof this commit (which follows [commit 6c9099de1bc3d588263705b3bb553d108f995266](https://github.com/SwuduSusuwu/SusuLib/commit/6c9099de1bc3d588263705b3bb553d108f995266)), [`./.ssh/sha256.sig`](./.ssh/sha256.sig) (and the [`./.ssh/allowed_signers`](./.ssh/allowed_signers) which `sha256.sig` produces) have a new certificate. All commits which follow that commit must use that new certificate (`SHA256:8MXQK2Ms1FI4X3BSNbLuYAAMO3MXPQ7GsGH4kcXNDiY`).
+[^4]: Asof [commit 7c84ecbd29360a60bd0336799305bb45aba223fb](https://github.com/SwuduSusuwu/SusuLib/commit/7c84ecbd29360a60bd0336799305bb45aba223fb)), [`./.ssh/sha256.sig`](./.ssh/sha256.sig) (and the [`./.ssh/allowed_signers`](./.ssh/allowed_signers) which `sha256.sig` produces) have a new certificate. All commits which follow that commit must use that new certificate (`SHA256:8MXQK2Ms1FI4X3BSNbLuYAAMO3MXPQ7GsGH4kcXNDiY`).
 
