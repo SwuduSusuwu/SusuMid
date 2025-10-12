@@ -6,7 +6,7 @@
   - [Download](#download)
   - [Signatures / certificates](#signatures--certificates)
 - [How to contribute](#how-to-contribute)
-  - [Beta tests / `experimental` branch](#beta-tests--experimental-branch)
+  - [Beta tests / `preview` branch](#beta-tests--preview-branch)
   - [Good first issues to contribute to](https://github.com/SwuduSusuwu/SusuMid/contribute)
   - [Contributor conventions / rules](#contributor-conventions--rules)
     - [_Markdown_](#markdown)
@@ -39,7 +39,7 @@
 If `git` is not installed, browse [`./mid/`](./mid/) and click on individual `*.mid` samples to have the browser download those.
 ## Download
 Download with `git clone https://github.com/SwuduSusuwu/SusuMid.git` and browse local with `cd mid/ && ls`.
-- If this does not have all the samples you want, you can opt-in to the beta with `git switch experimental` (opt-out with `get switch trunk`).
+- If this does not have all the samples you want, browse the ["beta test" / `preview` branch](#beta-test--preview-branch).
 ## Signatures / certificates
 [`./.ssh/setup.sh`](./setup.sh) is to setup `gpg.ssh.allowedSignersFile` (allows to use `git verify <ref>` or `git log --show-signature`).
 - `git verify <ref>` or `git log —show-signatures` shall match [`./.ssh/sha256.sig`](./.ssh/sha256.sig) for [new commits](https://github.com/SwuduSusuwu/SusuMid/blob/preview/SECURITY.md#user-content-fn-6-54b7777c7a2a5f42db6ee70c71bfec2e)
@@ -49,9 +49,9 @@ Download with `git clone https://github.com/SwuduSusuwu/SusuMid.git` and browse 
 
 # How to contribute
 View [documented issues](https://github.com/SwuduSusuwu/SusuMid/issues/) (for ideas on what to contribute, plus so you do not report documented issues.)
-## Beta tests / `experimental` branch
-- `git switch experimental`
-  - Preview samples / scripts symptoms of new issues (hint: listen to samples for glitches, or look through script outputs for "Warning:"s or "Error:"s).
+## Beta tests / [`preview`](https://github.com/SwuduSusuwu/SusuMid/tree/preview/) branch
+- Opt-in with `git switch preview` (opt-out with `git switch trunk`).
+  - Preview [samples](https://github.com/SwuduSusuwu/SusuMid/tree/preview/mid/) / [scripts](https://github.com/SwuduSusuwu/SusuMid/tree/preview/sh/) for symptoms of new issues (hint: listen to samples for glitches, or look through script outputs for "Warning:"s or "Error:"s).
   - If you found new issue(s) (which aren't due to misconfigurations in your system), [post new issue(s)](https://github.com/SwuduSusuwu/SusuMid/issues/new).
     - Notice: [sensitive issue(s)](./SECURITY.md#sensitive-issues) have a separate protocol.
 

@@ -21,5 +21,5 @@
 If `git` is not installed, browse [`./mid/`](./) and click on individual `*.mid` samples to have the browser download those.
 ## Download
 Download with `git clone https://github.com/SwuduSusuwu/SusuMid.git` and browse local with `cd mid/ && ls`.
-- If this does not have all the samples you want, you can opt-in to the beta with `git switch experimental` (opt-out with `get switch trunk`).
+- If this does not have all the samples you want, browse the [beta test / `preview` branch](../README.md#beta-test--preview-branch).
 
