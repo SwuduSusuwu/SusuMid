@@ -21,7 +21,7 @@
 # Purposes
 [`./.ssh/`](./.ssh/) is to [use signatures / certificates](#signatures--certificates).
 
-[`./mid/`](./mid/) stages [`.mid`](https://wikipedia.org/wiki/MIDI#Computer_files) sound (music) samples for <https://swudususuwu.substack.com/podcast>, which includes <https://github.com/SwuduSusuwu/SusuPosts/blob/preview/posts/SakuraSchoolHowto.md> (plus the rest of [_SwuduSusuwu_ on _Youtube_](https://www.youtube.com/watch?v=jbyE0W4FFjA&list=PLTYe2PlBb7aeNRwaNvbvpqFsoCa5S6fyx&index=2)).
+[`./mid/`](./mid/) stages [`.mid`](https://wikipedia.org/wiki/MIDI#Computer_files) sound (music) samples for <https://swudususuwu.substack.com/podcast>, which includes <https://github.com/SwuduSusuwu/SusuPosts/blob/preview/posts/SakuraSchoolHowto.md> (plus most of [_SusuMid_ on _Youtube_ (all are allowed to use the `.opus` versions from _Youtube_, just give attribution if you want to)](https://www.youtube.com/watch?v=jbyE0W4FFjA&list=PLTYe2PlBb7aeNRwaNvbvpqFsoCa5S6fyx&index=2)).
 - Much of those were not stored as `.mid`, and the few that were sound best if opened with [_Perfect Piano_](https://play.google.com/store/apps/details?id=com.gamestar.perfectpiano&hl=en-US) with the instrument from the filename.
 - The filenames are formatted as `YYMMDDHHMM[SS]_Instrument[_Title].mid` (`<[ISO 8601:2004](https://www.iso.org/standard/40874.html)>_<Instrument>[_<Title>]`, `<*>` is variable and `[*]` is optional).
 
