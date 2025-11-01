@@ -16,6 +16,7 @@
     - [Escrow](#escrow)
     - [Affiliates](#affiliates)
   - [Tools used](#tools-used)
+  - [Contributors / sponsors](#contributors--sponsors)
 
 # Purposes
 [`./.ssh/`](./.ssh/) is to [use signatures / certificates](#signatures--certificates).
@@ -221,6 +222,7 @@ Code rules (lots overlap with _Mozilla Org_'s):
 ## Sponsor
 To sponsor this (which allows us to produce more source codes), you can use crypto (such as [**Bitcoin**](https://wikipedia.org/wiki/Bitcoin)) to [produce a one-time-use address](https://poe.com/s/IPhIMyuMY6SnYM0yqEJl) (which you deposit funds into), and send the address&private-key to [a contact which `./SECURITY.md` lists](./SECURITY.md#sensitive-issues).
 - Rather than us publish a send-to address (for a particular protocol), this allows us to accept all forms of crypto.
+- If asked, will include sponsorship info into the [contributors / sponsors list](#contributors--sponsors).
 - If amount is more than $100 and you don't trust the contact platforms, use [`./.ssh/id_ed25519.pub`](./.ssh/id_ed25519.pub) to [secure those](https://superuser.com/questions/576506/how-to-use-ssh-rsa-public-key-to-encrypt-a-text/1850928#1850928).
 - If crypto is not suitable, you can also send gift card codes or [virtual cards](https://www.forbes.com/advisor/credit-cards/virtual-credit-card-numbers-guide/) to use.
 ### Escrow
@@ -241,4 +243,8 @@ For now, <https://github.com/SwuduSusuwu> just accepts anonymous sponsors. If th
 * `/bin/sh`: On most systems this uses `dash`: <https://git.kernel.org/pub/scm/utils/dash/dash.git>.
   * `ffmpeg`: <https://github.com/FFmpeg/FFmpeg/blob/master/CONTRIBUTING.md> says browse to <https://ffmpeg.org/developer.html#Contributing>, which has references to <https://ffmpeg.org/donations.html>
   * `git`: <https://github.com/git/git?tab=contributing-ov-file> says browse to <https://git-scm.com/community#contributing>
+
+## Contributors / sponsors
+This section will show contributors (of code, or sponsors) who request inclusion into the contributors / sponsors list.
+* Since published, `SusuMid` has no follows, no sponsors. But the producers of [tools used](#tools-used) are indirect contributors.
 
