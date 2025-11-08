@@ -4,11 +4,11 @@
 - [Purposes](#purposes)
 - [How to use this](#how-to-use-this)
   - [Download](#download)
-  - [Signature/certificate](#signaturecertificate)
+  - [Signature / certificate](#signature--certificate)
 - [How to contribute](#how-to-contribute)
-  - [Beta test/`experimental` branch](#beta-testexperimental-branch)
+  - [Beta test / `experimental` branch](#beta-test--experimental-branch)
   - [Good first issues to contribute to](https://github.com/SwuduSusuwu/SusuMid/contribute)
-  - [Contributor conventions/rules](#contributor-conventionsrules)
+  - [Contributor conventions / rules](#contributor-conventions--rules)
     - [_Markdown_](#markdown)
     - [`git`](#git)
     - [`sh` source](#sh-source)
@@ -17,7 +17,7 @@
     - [Affiliates](#affiliates)
 
 # Purposes
-[`./.ssh/`](./.ssh/) is to [use signatures / certificates](#signaturecertificate).
+[`./.ssh/`](./.ssh/) is to [use signatures / certificates](#signature--certificate).
 
 [`./mid/`](./mid/) stages [`.mid`](https://wikipedia.org/wiki/MIDI#Computer_files) sound (music) samples for <https://swudususuwu.substack.com/podcast> and [SwuduSusuwu on Youtube](https://www.youtube.com/watch?v=jbyE0W4FFjA&list=PLTYe2PlBb7aeNRwaNvbvpqFsoCa5S6fyx&index=2).
 - Much of those were not stored as `.mid`, and the few that were sound best if opened with [_Perfect Piano_](https://play.google.com/store/apps/details?id=com.gamestar.perfectpiano&hl=en-US) with the instrument from the filename.
@@ -40,7 +40,7 @@ If `git` is not installed, browse [`./mid/`](./mid/) and click on individual `*.
 ## Download
 Download with `git clone https://github.com/SwuduSusuwu/SusuMid.git` and browse local with `cd mid/ && ls`.
 - If this does not have all the samples you want, you can opt-in to the beta with `git switch experimental` (opt-out with `get switch trunk`).
-## Signature/certificate
+## Signature / certificate
 [`./.ssh/setup.sh`](./setup.sh) is to setup `gpg.ssh.allowedSignersFile` (allows to use `git verify <ref>` or `git log --show-signature`).
 - `git verify <ref>` or `git log —show-signatures` shall match [`./.ssh/sha256.sig`](./.ssh/sha256.sig) for [new commits](https://github.com/SwuduSusuwu/SusuMid/blob/preview/SECURITY.md#user-content-fn-6-54b7777c7a2a5f42db6ee70c71bfec2e)
 - You can compare those certificates to [this post](https://swudususuwu.substack.com/p/s256_1ywl0ridf6zuex1qazgx1ihgdytfkyf9t97gonfroio).)
@@ -49,13 +49,13 @@ Download with `git clone https://github.com/SwuduSusuwu/SusuMid.git` and browse 
 
 # How to contribute
 View [documented issues](https://github.com/SwuduSusuwu/SusuMid/issues/) (for ideas on what to contribute, plus so you do not report documented issues.)
-## Beta test/`experimental` branch
+## Beta test / `experimental` branch
 - `git switch experimental`
   - Preview samples / scripts symptoms of new issues (hint: listen to samples for glitches, or look through script outputs for "Warning:"s or "Error:"s).
   - If you found new issue(s) (which aren't due to misconfigurations in your system), [post new issue(s)](https://github.com/SwuduSusuwu/SusuMid/issues/new).
     - Notice: [sensitive issue(s)](./SECURITY.md#sensitive-issues) have a separate protocol.
 
-# Contributor conventions/rules
+# Contributor conventions / rules
 General comment/message syntax rules: `<>` goes around type of option/argument (such as `<commit-hash>`, `[]` goes around optional comments/options/arguments (such as `[<optional fallback value>]`, `...` is affixed to allow multiple options/arguments (such as `[; optional extra arguments]...`). This rule is used to document function arguments (such as `sh`, `C` or `C++` use), plus to document `git` uses.
 To ensure consistent code, submissions of code (such as through [pull requests](https://github.com/SwuduSusuwu/SusuMid/pulls)) have language-specific syntax rules:
 ## _Markdown_
